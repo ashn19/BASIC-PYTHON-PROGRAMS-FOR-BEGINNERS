@@ -1,0 +1,9 @@
+age = input()
+# 🚨 Don't change the code above 👆
+# Write your code below this line 👇
+int_age = int(age)
+remaining_year = 90 - int_age
+remaining_weeks = 52 * remaining_year
+
+
+print(f"You have {remaining_weeks} weeks left.")
